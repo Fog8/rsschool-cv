@@ -58,7 +58,7 @@ function t9() {
   #### [Web development for beginners: HTML and CSS.](https://stepik.org/cert/1124709)
 
 + ### freecodecamp.org
-  #### [JavaScript Algorithms and Data Structures] https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/ (in progress).
+  #### [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) (in progress).
 
 + ### Itgid.info
   #### [JavaScript v.2.0.](itgid.info/course/javascript-2) (in progress).

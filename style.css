@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #000;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Header */
+header {
+	background: #6b8e23;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+	font-size: 18px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.nav-list a {
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-list a:hover {
+	color: #4d2323;
+}
+
+/* Main */
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contacts {
+	padding-right: 15px;
+}
+
+.contacts-list,
+.cours-title {
+	list-style: none;
+}
+
+.section {
+	width: 50%;
+}
+
+.section-img {
+	width: 250px;
+	height: 250px;
+}
+
+.section-title {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	color: #000;
+}
+
+.section-name {
+	display: flex;
+	justify-content: space-around;
+}
+
+.section-title__name {
+	font-size: 32px;
+	border-bottom: 2px solid #228b22;
+}
+
+.section-subtitle {
+	align-items: center;
+	border-bottom: 1px solid #228b22;
+}
+
+.section-code {
+	position: relative;
+	right: 450px;
+}
+
+.contacts-link,
+.cours-link {
+	color: #0000ff;
+	transition: color 0.5s;
+}
+
+.contacts-link:hover,
+.cours-link:hover {
+	color: #8b4513;
+	text-decoration: underline;
+}
+
+.cours-title {
+	padding-bottom: 5px;
+	font-size: 16px;
+}
+
+hr {
+	width: 450px;
+}
+
+/* Footer */
+footer {
+	background: #6b8e23;
+}
+.footer-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration: none;
+}
+
+.footer-inner {
+	width: 70px;
+	height: 70px;
+}
